@@ -1,0 +1,42 @@
+# Android
+export ANDROID_SDK_ROOT=$HOME/Android/Sdk
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
+
+export ADB=$ANDROID_HOME/platform-tools/adb
+
+# GRADLE
+export PATH=$PATH:/opt/gradle/gradle-6.3/bin
+
+export VS_CODE_HOME=/snap/bin/code
+export PATH=$PATH:$VS_CODE_HOME
+
+# Flutter
+export FUTTER_CLI=$HOME/Flutter/flutter-cli/bin
+export PATH=$PATH:$FUTTER_CLI
+
+#Dart
+export PATH="$PATH:/usr/lib/dart/bin"
+
+# NVM
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Docker
+# export DOCKER_HOST=127.0.0.1
+
+# Laravel
+export PATH=$PATH:$HOME/.config/composer/vendor/bin
+alias sail='bash vendor/bin/sail'
+
+# DENO
+export DENO_INSTALL="/home/dev005/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+
+# GO language
+export PATH=$PATH:/usr/local/go/bin

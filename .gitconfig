@@ -1,0 +1,10 @@
+[user]
+	name = Darshit Hedpara
+	user = darshithedpara
+	email = darshithedpara@gmail.com
+[pager]
+   branch = false
+[core]
+	autocrlf = input
+[credential]
+	helper = cache --timeout=86400
